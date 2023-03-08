@@ -24,8 +24,6 @@ body {
 }
 
 main {
-  width: 80rem;
-  height: 69.2rem;
   padding: 6.4rem 8rem;
   background: #ffffff;
   box-shadow: 0rem 0.4rem 3.2rem rgba(15, 23, 42, 0.15);
@@ -162,8 +160,4 @@ li {
 
 .exchange .wrapper {
   margin-top: 2.4rem;
-  width: 59.2rem;
-  height: 35.6rem;
-
-  border: 1px solid red;
 }
