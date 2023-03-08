@@ -43,6 +43,7 @@ section h2 {
 .converter .wrapper {
   margin-top: 1.6rem;
   display: flex;
+  align-items: center;
   gap: 1.6rem;
 }
 
