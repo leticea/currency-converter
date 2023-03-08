@@ -79,9 +79,40 @@ section h2 {
 }
 
 .dropdown {
+  --bg-hover: #ede9fe;
   width: 12.4rem;
 
   position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.selected {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  border-radius: 0 0.8rem 0.8rem 0;
+  padding: 1.6rem;
+
+  cursor: pointer;
+}
+
+.selected::before {
+  content: "";
+}
+
+.selected::after {
+  content: "";
+}
+
+.selected:hover {
+  background-color: var(--bg-hover);
+}
+
+.fi.fis {
+  font-size: 2.4rem;
+  border-radius: 999px;
 }
 
 .exchange .wrapper {
