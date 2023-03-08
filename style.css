@@ -80,11 +80,13 @@ section h2 {
 
 .dropdown {
   --bg-hover: #ede9fe;
-  width: 12.4rem;
+  width: 13rem;
 
   position: absolute;
   top: 0;
   right: 0;
+
+  height: 5.6rem;
 }
 
 .selected {
@@ -100,10 +102,18 @@ section h2 {
 
 .selected::before {
   content: "";
+  height: 2.4rem;
+  width: 0.1rem;
+  background-color: #94a3b8;
+  position: absolute;
+  left: 0;
 }
 
 .selected::after {
   content: "";
+  width: 2.4rem;
+  height: 2.4rem;
+  background: url(./assets/chevron-down-line.svg) no-repeat;
 }
 
 .selected:hover {
