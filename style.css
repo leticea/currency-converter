@@ -28,3 +28,18 @@ main {
   box-shadow: 0rem 0.4rem 3.2rem rgba(15, 23, 42, 0.15);
   border-radius: 16px;
 }
+
+.money-wrapper {
+  background: #fff;
+  outline: 0.1rem solid #94a3b8;
+
+  width: 27rem;
+  padding: 1.6rem;
+}
+
+.exchange .wrapper {
+  width: 59.2rem;
+  height: 35.6rem;
+
+  border: 1px solid red;
+}
