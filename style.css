@@ -167,3 +167,10 @@ li {
   text-align: center;
   cursor: pointer;
 }
+
+.chart-controls button:hover,
+.chart-controls button.active {
+  background-color: #7c3aed;
+  color: #fff;
+  border-radius: 999px;
+}
