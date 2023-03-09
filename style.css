@@ -151,6 +151,12 @@ li {
   padding: 0.8rem;
 }
 
+.chart-controls {
+  display: flex;
+  justify-content: space-between;
+  margin: -2.2rem 0.8rem 0 4rem;
+}
+
 .chart-controls button {
   background-color: transparent;
   border: 0;
