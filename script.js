@@ -73,8 +73,19 @@ var options = {
   },
   colors: ["#7c3aed"],
   tooltip: {
-    
-  }
+    custom: function ({ series, seriesIndex, dataPointIndex, w }) {
+      return `<div class="tooltip">
+      <span>${series[seriesIndex][dataPointIndex]}</span>
+      <span>${new Date(
+        w.globals.seriesX[seriesIndex][dataPointIndex]
+      ).toLocaleDateString("pt-BR", {
+        weekday: "short",
+        month: "short",
+        day: "numeric",
+      })}</span>
+      </div>`;
+    },
+  },
 };
 
 var chart = new ApexCharts(document.querySelector("#chart"), options);
