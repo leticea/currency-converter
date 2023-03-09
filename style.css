@@ -161,3 +161,10 @@ li {
 .exchange .wrapper {
   margin-top: 2.4rem;
 }
+
+.tooltip {
+  background-color: #fff;
+  box-shadow: 0 0.4rem 1.6rem rgb(15 23 42 / 0.15);
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+}
