@@ -176,3 +176,23 @@ li {
   color: #fff;
   border-radius: 999px;
 }
+
+@media (max-width: 48rem) {
+  main {
+    padding: 1.6rem;
+    gap: 3.2rem;
+  }
+
+  section h2 {
+    font-size: 1.6rem;
+  }
+
+  .converter .wrapper {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .money-wrapper {
+    width: 100%;
+  }
+}

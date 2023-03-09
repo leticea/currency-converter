@@ -75,7 +75,10 @@ var options = {
   tooltip: {
     custom: function ({ series, seriesIndex, dataPointIndex, w }) {
       return `<div class="tooltip">
-      <span>${String(series[seriesIndex][dataPointIndex]).replace(".", ",")}</span>
+      <span>${String(series[seriesIndex][dataPointIndex]).replace(
+        ".",
+        ","
+      )}</span>
       <span>${new Date(
         w.globals.seriesX[seriesIndex][dataPointIndex]
       ).toLocaleDateString("pt-BR", {
