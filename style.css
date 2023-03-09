@@ -130,6 +130,8 @@ ul {
   max-height: 17rem;
   margin-top: 0.8rem;
   overflow-y: scroll;
+  position: relative;
+  z-index: 1;
 }
 
 li {
